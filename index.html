@@ -1,0 +1,588 @@
+<!doctype html>
+<html lang="pt-br" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <title>Portifólio — João Victor Sobroza</title>
+  </head>
+  <body>
+    <header id="header">
+      <div class="header-inner">
+        <div class="logo">
+          <span class="logo-text">Portifólio</span>
+        </div>
+
+        <nav id="menuNav">
+          <a href="#inicio" class="nav-link active">Início</a>
+          <a href="#projetos" class="nav-link">Projetos</a>
+          <a href="#contatos" class="nav-link">Contatos</a>
+        </nav>
+
+        <div class="header-right">
+          <button
+            id="menuToggle"
+            class="hamburger"
+            aria-label="Menu"
+            aria-expanded="false"
+          >
+            ☰
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="inicio" class="secao">
+        <div class="hero-top">
+          <div class="inicio-container">
+            <div class="inicio-photo-wrap">
+              <div class="photo-glow"></div>
+              <div class="photo-ring"></div>
+              <img
+                src="img/ft.jpg"
+                alt="João Victor Sobroza Dal Ross"
+                class="profile-photo"
+                id="profilePhoto"
+              />
+            </div>
+
+            <div class="inicio-info">
+              <p class="greeting">Prazer, eu sou</p>
+              <h1 class="typed-name">
+                <span id="typing"></span><span class="cursor">|</span>
+              </h1>
+              <p class="tagline">
+                Desenvolvedor Backend em busca de oportunidades
+              </p>
+              <p class="bio">
+                Graduando em Análise e Desenvolvimento de Sistemas com foco em
+                desenvolvimento backend. Estou sempre em busca de novas
+                oportunidades para aplicar meu conhecimento em Java, PHP e
+                desenvolvimento de sistemas robustos.
+              </p>
+
+              <div class="inicio-actions">
+                <a
+                  href="assets/CV_Joao_Victor_Sobroza_Dal_Ross.pdf"
+                  download="CV_Joao_Victor_Sobroza_Dal_Ross.pdf"
+                  class="btn-primary"
+                >
+                  <i class="fa-solid fa-download"></i> Baixar CV
+                </a>
+                <div class="social-links">
+                  <a
+                    href="https://github.com/jvsobroza"
+                    target="_blank"
+                    rel="noopener"
+                    title="GitHub"
+                  >
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/joao-sobroza/"
+                    target="_blank"
+                    rel="noopener"
+                    title="LinkedIn"
+                  >
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </a>
+                  <a href="mailto:joaovictor0908.jv@email.com" title="Email">
+                    <i class="fa-solid fa-envelope"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="particles" aria-hidden="true">
+            <div class="orbital">
+              <div class="orbital-dot"></div>
+              <div class="orbital-dot"></div>
+              <div class="orbital-dot"></div>
+            </div>
+            <div class="orbital orbital-large">
+              <div class="orbital-dot"></div>
+              <div class="orbital-dot"></div>
+            </div>
+            <div class="orbital orbital-small">
+              <div class="orbital-dot"></div>
+              <div class="orbital-dot"></div>
+              <div class="orbital-dot"></div>
+              <div class="orbital-dot"></div>
+            </div>
+            <div class="glow-blur glow-1"></div>
+            <div class="glow-blur glow-2"></div>
+            <div class="glow-blur glow-3"></div>
+          </div>
+        </div>
+
+        <div class="hero-bottom">
+          <div class="section-header fade-in" style="margin-bottom: 3rem">
+            <h2 class="section-title">Stacks</h2>
+            <p class="section-sub">Tecnologias e ferramentas que utilizo</p>
+          </div>
+
+          <div class="skills-categories fade-in">
+            <div class="skill-category">
+              <h3 class="category-label">
+                <i class="fa-solid fa-code"></i> Frontend
+              </h3>
+              <div class="skills-grid">
+                <div class="skill-card">
+                  <i class="fa-brands fa-html5" style="color: #e44d26"></i
+                  ><span>HTML5</span>
+                </div>
+                <div class="skill-card">
+                  <i class="fa-brands fa-css3-alt" style="color: #264de4"></i
+                  ><span>CSS3</span>
+                </div>
+                <div class="skill-card">
+                  <i class="fa-brands fa-js" style="color: #f7df1e"></i
+                  ><span>JavaScript</span>
+                </div>
+                <div class="skill-card">
+                  <i class="fa-brands fa-bootstrap" style="color: #a878f8"></i
+                  ><span>Bootstrap</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-category">
+              <h3 class="category-label">
+                <i class="fa-solid fa-server"></i> Backend &amp; Banco de Dados
+              </h3>
+              <div class="skills-grid">
+                <div class="skill-card">
+                  <i class="fa-brands fa-php" style="color: #b08af8"></i
+                  ><span>PHP</span>
+                </div>
+                <div class="skill-card">
+                  <i class="fa-brands fa-java" style="color: #ed8b00"></i
+                  ><span>Java</span>
+                </div>
+                <div class="skill-card">
+                  <i class="fa-brands fa-laravel" style="color: #ff2d20"></i
+                  ><span>Laravel</span>
+                </div>
+                <div class="skill-card">
+                  <i class="fa-solid fa-database" style="color: #336791"></i
+                  ><span>PostgreSQL</span>
+                </div>
+                <div class="skill-card">
+                  <i class="fa-solid fa-database" style="color: #00758f"></i
+                  ><span>MySQL</span>
+                </div>
+                <div class="skill-card">
+                  <i class="fa-solid fa-table" style="color: #4479a1"></i
+                  ><span>SQL</span>
+                </div>
+                <div class="skill-card">
+                  <i class="fa-brands fa-android" style="color: #3ddc84"></i
+                  ><span>Android Studio</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-category">
+              <h3 class="category-label">
+                <i class="fa-solid fa-wrench"></i> Ferramentas
+              </h3>
+              <div class="skills-grid">
+                <div class="skill-card">
+                  <i class="fa-brands fa-git-alt" style="color: #f05032"></i
+                  ><span>Git</span>
+                </div>
+                <div class="skill-card">
+                  <i class="fa-brands fa-github" style="color: #e6edf3"></i
+                  ><span>GitHub</span>
+                </div>
+                <div class="skill-card">
+                  <i class="fa-solid fa-code" style="color: #007acc"></i
+                  ><span>VS Code</span>
+                </div>
+                <div class="skill-card">
+                  <i class="fa-brands fa-android" style="color: #3ddc84"></i
+                  ><span>Android Studio</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section-header fade-in" style="margin: 4rem 0 3rem">
+            <h2 class="section-title">Formação Acadêmica</h2>
+            <p class="section-sub">Minha trajetória acadêmica e cursos</p>
+          </div>
+
+          <div class="timeline fade-in">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-card">
+                <div class="timeline-top">
+                  <span class="timeline-badge academic"
+                    ><i class="fa-solid fa-graduation-cap"></i> Graduação</span
+                  >
+                  <span class="timeline-year">2024 — Atual</span>
+                </div>
+                <h3 class="timeline-title">
+                  Análise e Desenvolvimento de Sistemas
+                </h3>
+                <p class="timeline-institution">
+                  <i class="fa-solid fa-building-columns"></i> IFFar - Campus
+                  São Vicente do Sul (RS)
+                </p>
+                <p class="timeline-desc">
+                  Curso tecnológico com foco em desenvolvimento de software,
+                  estruturas de dados, banco de dados e engenharia de software.
+                  (5º semestre em progresso)
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-card">
+                <div class="timeline-top">
+                  <span class="timeline-badge course"
+                    ><i class="fa-solid fa-certificate"></i>Cursos</span
+                  >
+                  <span class="timeline-year">2024 — Atual</span>
+                </div>
+                <h3 class="timeline-title">Cursos realizados</h3>
+                <a
+                  href="assets/certificates/especializacao_formacao_ em_Minicurso_de_Java.pdf"
+                  target="_blank"
+                  class="timeline-institution timeline-link"
+                >
+                  <i class="fa-solid fa-laptop-code"></i>Especialização/formação
+                  em Minicurso de Java – Faculdade de Tecnologia Rocketseat
+                  (2025)
+                </a>
+                <a
+                  href="assets/certificates/CCNA-_Introduction_to_Networks .pdf"
+                  target="_blank"
+                  class="timeline-institution timeline-link"
+                >
+                  <i class="fa-solid fa-laptop-code"></i>CCNA: Introduction to
+                  Networks – Instituto Federal Farroupilha (2025)
+                </a>
+                <a
+                  href="assets/certificates/DevOps&Agile_Culture.pdf"
+                  target="_blank"
+                  class="timeline-institution timeline-link"
+                >
+                  <i class="fa-solid fa-laptop-code"></i>DevOps & Agile Culture
+                  – FIAP - Centro Universitário (2026)
+                </a>
+                <p class="timeline-desc">
+                  Aprimoramento contínuo através de cursos especializados em
+                  desenvolvimento backend com Java, infraestrutura de redes CCNA
+                  e metodologias DevOps com práticas ágeis. Combinando
+                  conhecimento técnico com gestão moderna de projetos.
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-card">
+                <div class="timeline-top">
+                  <span class="timeline-badge academic"
+                    ><i class="fa-solid fa-school"></i> Ensino Médio</span
+                  >
+                  <span class="timeline-year">2021 — 2023</span>
+                </div>
+                <h3 class="timeline-title">Ensino Médio</h3>
+                <p class="timeline-institution">
+                  <i class="fa-solid fa-building-columns"></i>
+                  Instituto Estadual de Educação Professora Guilhermina Javorski
+                </p>
+                <p class="timeline-desc">Ensino médio completo.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="projetos" class="secao">
+        <div class="section-header fade-in">
+          <h2 class="section-title">Projetos</h2>
+          <p class="section-sub">
+            Uma seleção dos meus trabalhos mais recentes
+          </p>
+        </div>
+
+        <div class="projects-grid fade-in">
+          <div class="project-card">
+            <div class="project-img-wrap">
+              <img
+                src="img/repo_tcc/projeto_banca.png"
+                alt="Projeto 1"
+                class="project-img"
+              />
+              <div class="project-overlay">
+                <a
+                  href="https://github.com/jvsobroza/Repositorio-Trabalho-Conclusao-Curso"
+                  target="_blank"
+                  class="btn-ver-projeto"
+                >
+                  <i class="fa-brands fa-github"></i> Ver Projeto
+                </a>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span>PHP</span><span>Blade</span><span>Laravel</span><span>MySQL</span><span>Web</span>
+              </div>
+              <h3 class="project-title">
+                Repositório de Trabalho de Conclusão de Curso
+              </h3>
+              <p class="project-desc">
+                Sistema web desenvolvido em Laravel para gerenciamento e
+                repositório de TCCs, permitindo o cadastro de membros de banca e
+                trabalhos acadêmicos.
+              </p>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-img-wrap">
+              <img
+                src="img/repo_compra_veja/projeto_compra_veja.png"
+                alt="Projeto 2"
+                class="project-img"
+              />
+              <div class="project-overlay">
+                <a
+                  href="https://github.com/jvsobroza/App-Compra-Rastreio"
+                  target="_blank"
+                  class="btn-ver-projeto"
+                >
+                  <i class="fa-brands fa-github"></i> Ver Projeto
+                </a>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span>PHP</span><span>Java</span><span>MySQL</span><span>Android</span><span>Mobile</span><span>Web Services</span>
+              </div>
+              <h3 class="project-title">Compra e Veja</h3>
+              <p class="project-desc">
+                Aplicativo mobile Android para cadastro e rastreamento de
+                pedidos/encomendas. Permite ao usuário registrar compras,
+                acompanhar o status de entrega e visualizar o histórico completo
+                de movimentações, tudo integrado a um servidor remoto via Web
+                Services em PHP.
+              </p>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-img-wrap">
+              <img
+                src="img/repo_progIII/projeto_progIII.png"
+                alt="Projeto 3"
+                class="project-img"
+              />
+              <div class="project-overlay">
+                <a
+                  href="https://github.com/jvsobroza/Cervejaria-ProgIII"
+                  target="_blank"
+                  class="btn-ver-projeto"
+                >
+                  <i class="fa-brands fa-github"></i> Ver Projeto
+                </a>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span>Java</span><span>MySQL</span><span>jBCrypt</span><span>POO</span><span>Desktop</span>
+              </div>
+              <h3 class="project-title">
+                Sistema de Gerenciamento de Degustações
+              </h3>
+              <p class="project-desc">
+                O projeto é uma aplicação desktop desenvolvida em Java para a
+                disciplina de Programação III, focada no gerenciamento de
+                experiências sensoriais de entusiastas de cerveja. O sistema
+                permite que usuários cadastrados criem um histórico detalhado de
+                degustações, unindo informações técnicas da bebida com
+                avaliações pessoais.
+              </p>
+            </div>
+          </div>
+
+
+          
+          </div>
+        </div>
+      </section>
+
+      <section id="contatos" class="secao">
+        <div class="section-header fade-in">
+          <h2 class="section-title">Contatos</h2>
+          <p class="section-sub">Entre em contato para futuros negócios</p>
+        </div>
+
+        <div class="contatos-layout fade-in">
+          <div class="contatos-info">
+            <h3 class="contatos-cta">Pronto para colaborar!</h3>
+            <p class="contatos-text">
+              Estou disponível para projetos freelancer e oportunidades de emprego. Entre em contato!
+            </p>
+
+            <div class="contato-items">
+              <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=joaovictor0908.jv@email.com&su=Contato&body=Olá, vim pelo seu portifólio!"
+                class="contato-item"
+                target="_blank"
+              >
+                <div class="contato-icon">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div>
+                  <span class="contato-label">Email</span>
+                  <span class="contato-value">joaovictor0908.jv@email.com</span>
+                </div>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/joao-sobroza/"
+                class="contato-item"
+                target="_blank"
+              >
+                <div class="contato-icon linkedin">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <div>
+                  <span class="contato-label">LinkedIn</span>
+                  <span class="contato-value">joao-sobroza</span>
+                </div>
+              </a>
+              <a
+                href="https://github.com/jvsobroza"
+                class="contato-item"
+                target="_blank"
+              >
+                <div class="contato-icon github">
+                  <i class="fa-brands fa-github"></i>
+                </div>
+                <div>
+                  <span class="contato-label">GitHub</span>
+                  <span class="contato-value">jvsobroza</span>
+                </div>
+              </a>
+              <a
+                href="https://maps.google.com/?q=Jaguari,Rio+Grande+do+Sul"
+                class="contato-item"
+                target="_blank"
+              >
+                <div class="contato-icon">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div>
+                  <span class="contato-label">Localização</span>
+                  <span class="contato-value">Jaguari, RS</span>
+                </div>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <p class="footer-copy">
+          &copy; 2026 João Victor Sobroza Dal Ross. Todos os direitos reservados.
+        </p>
+        <div class="footer-links">
+          <a
+            href="https://github.com/jvsobroza"
+            target="_blank"
+            rel="noopener"
+            title="GitHub"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/joao-sobroza/"
+            target="_blank"
+            rel="noopener"
+            title="LinkedIn"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a href="mailto:joaovictor0908.jv@email.com" title="Email">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const name = "João Victor Sobroza Dal Ross";
+      let i = 0;
+      const target = document.getElementById("typing");
+      function typeWriter() {
+        if (i < name.length) {
+          target.textContent += name[i++];
+          setTimeout(typeWriter, 80);
+        }
+      }
+      typeWriter();
+
+      const toggle = document.getElementById("menuToggle");
+      const nav = document.getElementById("menuNav");
+      toggle?.addEventListener("click", () => {
+        const open = nav.classList.toggle("open");
+        toggle.setAttribute("aria-expanded", open);
+      });
+
+      const sections = document.querySelectorAll("section[id]");
+      const links = document.querySelectorAll(".nav-link");
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((e) => {
+            if (e.isIntersecting) {
+              links.forEach((l) => l.classList.remove("active"));
+              document
+                .querySelector(`.nav-link[href="#${e.target.id}"]`)
+                ?.classList.add("active");
+            }
+          });
+        },
+        { threshold: 0.35 },
+      );
+      sections.forEach((s) => observer.observe(s));
+
+      window.addEventListener("scroll", () => {
+        document
+          .getElementById("header")
+          .classList.toggle("scrolled", window.scrollY > 20);
+      });
+
+      const fadeEls = document.querySelectorAll(".fade-in");
+      const fadeObs = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((e) => {
+            if (e.isIntersecting) {
+              e.target.classList.add("visible");
+              fadeObs.unobserve(e.target);
+            }
+          });
+        },
+        { threshold: 0.1 },
+      );
+      fadeEls.forEach((el) => fadeObs.observe(el));
+    </script>
+  </body>
+</html>
